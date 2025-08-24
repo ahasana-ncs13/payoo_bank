@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payoo Bank</title>
-</head>
-<body>
+
+    <!-- daisyUI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     
+    <!-- tailwind cdn -->
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+        <!-- google font  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+          <!-- css link -->
+          <link rel="stylesheet" href="./styles/login.css">
+
+</head>
+<body class="bg-[#F4F5F7] outfit-font">
+    <section class="flex flex-col justify-center items-center h-[100vh] ">
+        <div class="img  h-[130px] w-[300px] bg-[url(./assets/bg.png)] bg-cover flex justify-center items-center">
+        <img class="" src="./assets/Group.png" alt="">
+        </div>
+        <form class="bg-white p-[32px] rounded-[24px] w-[400px]">
+
+            <label for="text" class="font-medium text-[#080808]">Mobile Number</label>
+            <input type="text" placeholder="Enter your number" class="input rounded-[32px] block bg-[#F4F5F7] mb-[16px] mt-[10px]" />
+
+            <label for="text" class="font-medium text-[#080808]">4 Digit Pin</label>
+            <input type="text" placeholder="Enter 4 Digit Pin" class="input rounded-[32px] block bg-[#F4F5F7] mt-[10px]" />
+
+            <button class="btn bg-[#0874F2] text-white rounded-[32px] w-full mt-[16px]">Login</button>
+        </form>
+    </section>
 </body>
 </html>
