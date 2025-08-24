@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page</title>
+    <title>Add Money</title>
 
     <!-- daisyUI cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
@@ -70,7 +70,32 @@
         </section>
     </header>
     <main>
+        <section class="add-money w-[400px] m-auto mt-[20px]">
+            <h3 class="add-money-title font-semibold text-[1.125rem] text-[#080808]/90 my-[16px]">Add Money</h3>
 
+            <form class="bg-white p-[32px] rounded-[24px] w-[400px]">
+
+            <label for="text" class="font-medium text-[#080808]">Select A Bank</label>
+            <select class="select rounded-[32px] block bg-[#F4F5F7] mb-[16px] mt-[10px]">
+                <option >Select bank</option>
+                <option>AB Bank</option>
+                <option>IFIC Bank</option>
+                <option>Dutch Bangla Bank</option>
+            </select>
+            <input id="number-input" type="text" placeholder="Select bank" class="input rounded-[32px] block bg-[#F4F5F7] mb-[16px] mt-[10px]" />
+
+            <label for="text" class="font-medium text-[#080808]">Bank Account Number</label>
+            <input id="pin-input" type="text" placeholder="Enter 11 digit account number" class="input rounded-[32px] block bg-[#F4F5F7] mt-[10px]  mb-[16px]" />
+
+            <label for="text" class="font-medium text-[#080808]">Amount to Add</label>
+            <input id="pin-input" type="text" placeholder="Add Amount to withdraw" class="input rounded-[32px] block bg-[#F4F5F7] mt-[10px]  mb-[16px]" />
+
+            <label for="text" class="font-medium text-[#080808]">Pin Number</label>
+            <input id="pin-input" type="text" placeholder="Enter 4 digit pin number" class="input rounded-[32px] block bg-[#F4F5F7] mt-[10px]  mb-[16px]" />
+
+            <button  type="button" id="login-btn" class="btn bg-[#0874F2] text-white rounded-[32px] w-full mt-[16px]">Login</button>
+            </form>
+        </section>
     </main>
 </body>
 </html>
