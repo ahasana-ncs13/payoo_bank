@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
+
+    <!-- daisyUI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    
+    <!-- tailwind cdn -->
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+        <!-- google font  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+          <!-- font awesome  -->
+           <script src="https://kit.fontawesome.com/75c2c87a04.js" crossorigin="anonymous"></script>
+
+          <!-- css link -->
+          <link rel="stylesheet" href="./styles/login.css">
+
 </head>
-<body>
-    <h1>homw</h1>
+<body class="bg-[#F4F5F7] outfit-font max-w-[500px] m-auto h-[100vh]">
+    <header class="bg-white">
+        <nav class="navbar flex justify-between px-[24px] border-b border-[#080808]/10">
+            <div class="flex items-center">
+            <img src="./assets/Group.png" alt="">
+            <div class="nav-content">
+                <p class="font-extrabold text-[1.125rem] text-[#080808]/90">$45000</p>
+                <p class="text-[#080808]/50 text-[0.875rem]">Available Balance</p>
+            </div>
+            </div>
+            <button class="btn btn-outline border-[#080808]/10 text-[#080808]/50"> <i class="fa-solid fa-arrow-right-from-bracket rotate-180"></i>Log Out</button>
+        </nav>
+    </header>
+    <main>
+
+    </main>
 </body>
 </html>
